@@ -36,6 +36,7 @@
   scene.addEventListener('pointerleave',()=>{tx=ty=0;wake()});
   addEventListener('scroll',wake,{passive:true});addEventListener('resize',wake,{passive:true});
   document.addEventListener('visibilitychange',()=>{visible=!document.hidden;if(visible)wake()});
-  reduce.addEventListener('change',()=>{if(reduce.matches){letters.forEach(l=>l.style.transform='none');model.style.transform='none';cardCache.forEach(c=>{c.style.transform='none';c.querySelector('.product-info').style.opacity=1;c.querySelector('small').style.opacity=1});word.style.opacity=0;stage.classList.remove('is-chaos')}else wake()});
+  reduce.addEventListener('change',()=>{if(reduce.matches){letters.forEach(l=>l.style.transform='none');model.style.transform='none';cardCache.forEach(c=>{c.style.transform='none';c.querySelector('.product-info').style.opacity=1;c.querySelector('small')?.style.setProperty('opacity','1')});word.style.opacity=0;stage.classList.remove('is-chaos')}else wake()});
+  document.addEventListener('site-ready',()=>{opened=performance.now();wake()},{once:true});
   wake();
 })();
