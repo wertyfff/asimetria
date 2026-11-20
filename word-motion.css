@@ -1,0 +1,10 @@
+/* A letter wave travels across the word in reading order. */
+.word-motion{position:relative;display:inline-flex;overflow:hidden;vertical-align:bottom;white-space:pre;line-height:1.35}
+.word-motion-label{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.word-motion-visual{display:inline-flex}
+.word-motion-letter{position:relative;display:inline-block;transition:transform .44s cubic-bezier(.22,1,.36,1);transition-delay:var(--letter-delay)}
+.word-motion-letter::after{content:attr(data-letter);position:absolute;top:100%;left:0}
+.word-motion-target:focus-visible .word-motion-letter{transform:translateY(-100%)}
+.footer-links>.word-motion-target:hover{text-decoration:none}
+@media(hover:hover) and (pointer:fine){.word-motion-target:hover .word-motion-letter{transform:translateY(-100%)}}
+@media(prefers-reduced-motion:reduce){.word-motion-letter{transition:none!important}.word-motion-target:focus-visible .word-motion-letter,.word-motion-target:hover .word-motion-letter{transform:none}}
