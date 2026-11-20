@@ -1,2 +1,6 @@
 qa/
 *.tar.gz
+output/imagegen/
+output/playwright/
+*.log
+*.pid

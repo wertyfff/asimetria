@@ -1,0 +1,60 @@
+ASIMETRIA — PUBLISHING PACKAGE
+
+BEHANCE
+
+Project title:
+Asimetria / WRONGFORM — Fashion E-commerce
+
+Description:
+A distinctive fashion storefront built around oversized typography, asymmetrical clothing and native-scroll interaction. The project covers art direction, interface design, front-end development, mobile refinement, image preparation and English localization.
+
+The experience pairs a precisely aligned loading transition with an expressive collection grid, responsive product imagery, size selection and a persistent shopping bag. Built with HTML, CSS and JavaScript. Independent concept project.
+
+Creative fields:
+Web Design, Interaction Design, Art Direction
+
+Tags:
+Fashion, E-commerce, Web Design, UI UX, Responsive Design, Typography, Interaction Design, Front-end Development, HTML, CSS, JavaScript
+
+Cover:
+behance/cover-1616x1264.jpg
+
+One complete project image:
+behance/ASIMETRIA-complete-case-study.jpg
+
+Alternatively, upload these panels into ONE Behance project in this order, using full-width images with no gaps:
+01-intro.jpg
+02-brief.jpg
+03-desktop.jpg
+04-typography.jpg
+05-transition.jpg
+06-catalog.jpg
+07-mobile.jpg
+08-boutique.jpg
+09-closing.jpg
+
+The complete case and panels are 1400px wide. The cover is 1616 × 1264, twice Behance's 808 × 632 minimum.
+
+Links:
+https://wertyfff.github.io/asimetria/
+https://github.com/wertyfff/asimetria
+
+Credits:
+Independent concept project. Photography supplied for the project and enhanced with AI-assisted processing. Boutique image is a visualization. All photography and garment designs remain the property of their respective creators. The shopping flow is a demonstration and does not process payments.
+
+INSTAGRAM
+
+Use the five files in instagram/ in numerical order. PNG masters are 1920 × 1080. JPG upload copies are 1080 × 608. All are horizontal screenshots of the actual website without extra presentation labels.
+
+Caption:
+Asimetria / WRONGFORM.
+
+A fashion storefront shaped by contrast, oversized type and clothing that follows its own lines.
+
+Art direction, UI/UX, responsive development and interaction design. Built with HTML, CSS and JavaScript, with a mobile shopping flow and a collection that changes composition as you scroll.
+
+Explore the project: https://wertyfff.github.io/asimetria/
+
+Independent concept. Photography supplied for the project; AI-assisted image enhancements and boutique visualization.
+
+#WebDesign #FashionWebsite #EcommerceDesign #UIDesign #InteractionDesign #ResponsiveDesign #Typography #FrontendDevelopment
