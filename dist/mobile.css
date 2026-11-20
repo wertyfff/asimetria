@@ -49,7 +49,7 @@
   .products { position: relative; left: auto; right: auto; top: auto; margin-top: 24px; }
   .product { transform: none !important; }
   .product-info { opacity: 1 !important; visibility: visible !important; }
-  .product-image { height: auto; aspect-ratio: 4 / 5; max-height: none; }
+  .product-image { width: 100%; height: auto; min-height: 0; aspect-ratio: 4 / 5; max-height: none; }
   .collection-word, .collection-bottom { display: none; }
 }
 
